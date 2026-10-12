@@ -8,13 +8,13 @@ Chat-first Texas fishing agent. Made in Texas, for Texans.
 
 This repo is the **public surface**. It holds both sides, separated by directory:
 
-**Product** (what an angler uses)
-- `/index.html` + `/es/` - the chat-first landing. The chat composer is an
-  **agent preview**: sample answers from real Texas sources, labeled as such on
-  the page. The live agent backend is being built in `executiveusa/fish-on-texas`
-  (private build lane); until it ships, every chat surface here stays labeled preview.
-- `/field-cards/red-drum/` (+ `/es/`) - pocket field cards: cited, dated
-  regulation cards anglers can read on the phone or print. First card: red drum.
+**Public shell**
+- `/index.html` + `/es/` - non-operational MACS client-access pages only.
+  They explain that the working product is privately installed per customer and
+  point visitors back to the MACS product page.
+- `/field-cards/red-drum/` (+ `/es/`) - public informational field cards:
+  cited, dated regulation references anglers can read on the phone or print.
+  They are not an authenticated product runtime.
 
 **Marketing** (what sells the product)
 - The landing itself (Bar B skeleton, Texas Almanac design, gauntlet-passed).

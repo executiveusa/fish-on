@@ -2,7 +2,7 @@
 
 Chat-first Texas fishing agent. Made in Texas, for Texans.
 
-**Live:** https://executiveusa.github.io/fish-on/ (es-MX: https://executiveusa.github.io/fish-on/es/)
+**Public shell:** https://executiveusa.github.io/fish-on/ — non-operational access page only. The working product is private and installed per customer.
 
 ## Product vs marketing split
 
@@ -38,3 +38,10 @@ TPWD Outdoor Annual (regulations, stocking) - NWS (weather) - NOAA CO-OPS (tides
 ## Rollback
 
 See `ROLLBACK.md`. Pre-consolidation state is commit `dee552c`.
+
+
+## Access policy
+
+The GitHub Pages site is intentionally non-operational. It must not expose a working agent, customer state, private data, or privileged API surface.
+
+Fish On is a MACS in-house product pattern. Working deployments belong in private, customer-controlled installations with their own authentication and data boundary. The canonical private implementation is not published through this repository.
